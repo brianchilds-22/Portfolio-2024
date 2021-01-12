@@ -172,11 +172,11 @@ button, a, a.btn,
    margin: 1rem;
 }
 .btn-nuno {
-   background-color: #1EBBA3;
+   background-color:  rgba(9,32,63);
    color: white;
 }
 .btn-nuno:hover {
-   background-color: #189582;
+   background-color: #1a6594;
    color: white;
 }
 h3.heading {
