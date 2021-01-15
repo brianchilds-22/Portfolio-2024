@@ -97,13 +97,13 @@ button, a, a.btn,
    left: 0;
 }
 .home-inner {
-   background-image: url("../img/Pressed-Cardboard-BC.jpg");
+   background-image: url('../img/Pressed-Cardboard-BC.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
    background-size: cover;
    background-position: center center;
-   -webkit-transform: translateZ(0); /*iphone sizing */
+   -webkit-transform: translateZ(0); /*iphone sizing*/ 
    transform: translateZ(0);
    will-change: transform;
    display: table;
@@ -204,8 +204,8 @@ h3.heading {
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
-/*--- iOS Fixed Background Image --*/
-/* .fixed {
+/* --- iOS Fixed Background Image --*/ 
+ .fixed {
    position: relative;
    width: 100%;
    overflow: hidden;
@@ -220,7 +220,7 @@ h3.heading {
    z-index: -9999;
 }
 .fixed-dark {
-   background-image: url('https://via.placeholder.com/1500x1000');
+   background-image: url('..img/Pressed-Cardboard-BC.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -238,7 +238,7 @@ h3.heading {
    background-color: rgba(0, 0, 0, .7);
    padding: 7rem 0;
    z-index: 1000;
-} */
+}
 
 /*============= PORTFOLIO SECTION =============*/
 
@@ -252,7 +252,7 @@ h3.heading {
 
 /*============= PRICING SECTION =============*/
 
-.pricing-column {
+/* .pricing-column {
    background-color: white;
    height: 100%;
    padding: 1.6rem;
@@ -282,13 +282,13 @@ h3.heading {
    right: -2.8rem;
    top: 1.5rem;
    box-shadow: 0 0 .2rem rgba(0, 0, 0, .25);
-}
+} */
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-   background-image: url('https://via.placeholder.com/1500x1002');
+   background-image: url('../img/computers.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -324,7 +324,7 @@ h3.heading {
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
-   background: #1EBBA3!important;
+   background: rgba(9,32,63)!important;
 }
 ul.social {
    list-style: none;
@@ -337,11 +337,11 @@ ul.social li {
    padding-right: .8rem;
 }
 ul.social li a {
-   color: #1EBBA3;
+   color: rgba(9,32,63);
    transition: all .2s ease;
 }
 ul.social li a:hover {
-   color: #505962;
+   color:#1a6594;
 }
 
 /*============= SKILLS SECTION =============*/
