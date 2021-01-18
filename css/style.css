@@ -17,9 +17,9 @@ html, body {
 /*--- Nav Scrolling Offset --*/
 .offset:before {
    content: "";
-   height: 12rem;
+   height: 9rem;
    display: block;
-   margin-top: -12rem;
+   margin-top: -9rem;
 }
 
 /*--- Extra Bootstrap Column Padding --*/
@@ -29,7 +29,7 @@ html, body {
 
 /*============= NAVIGATION =============*/
 .navbar-brand img {
-   height: 10rem;
+   height: 7rem;
 }
 .navbar {
    padding: .7rem 1rem;
