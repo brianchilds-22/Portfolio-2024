@@ -387,16 +387,18 @@ blockquote .svg-inline--fa {
 .footer a,
 .footer ul.social li a {
    color: white;
-   height: 5rem;
- 
-}
+ }
+
 .footer ul.social li a:hover {
    color:rgba(9,32,63);
+   list-style: none!important;
 }
+
 .footer h3 {
    text-transform: uppercase;
    margin: 1.5rem 0;
 }
+
 
 
 /*--- Contact Form --*/
