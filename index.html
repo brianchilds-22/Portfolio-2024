@@ -23,6 +23,13 @@
 		http://owlcarousel2.github.io/OwlCarousel2/ -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<!-- <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script> -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+		emailjs.init("user_fL1PJwgD7QlxMhlQ4KpNR");
+		})();
+	</script>
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 
@@ -640,7 +647,7 @@
 
 					<div class="row clients px-3 px-md-4">
 						<div class="col-lg-4 my-auto">
-							<img src="../img/clients/Marlanprofile.jpg" alt="">
+							<img src="/img/clients/Marlanprofile.jpg" alt="">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="text-justify">
@@ -655,7 +662,7 @@
 
 					<div class="row clients px-3 px-md-4">
 						<div class="col-lg-4 my-auto">
-							<img src="../img/clients/profile-Shane.jpg" alt="">
+							<img src="/img/clients/profile-Shane.jpg" alt="">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="text-justify">
@@ -672,7 +679,7 @@
 
 					<div class="row clients px-3 px-md-4">
 						<div class="col-lg-4 my-auto">
-							<img src="../img/clients/Brittany_Cummins-400x400.jpg" alt="">
+							<img src="/img/clients/Brittany_Cummins-400x400.jpg" alt="">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="text-justify">
@@ -686,7 +693,7 @@
 
 					<div class="row clients px-3 px-md-4">
 						<div class="col-lg-4 my-auto">
-							<img src="../img/clients/Brian-Hobbs-360x400.png" alt="">
+							<img src="/img/clients/Brian-Hobbs-360x400.png" alt="">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="text-justify">
@@ -733,8 +740,8 @@
 
 						<div class="col-md-7 px-0 pl-md-3">
 							<h3>Contact</h3>
-
-							<form action="contact/gmail-contact.php" method="POST" id="contact-form">
+							<!-- action="contact/gmail-contact.php" method="POST"  -->
+							<form id="contact-form">
 
 								<div class="messages"></div>
 								<div class="controls">
@@ -803,8 +810,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
 	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	<!-- Email Contact form -->
 	
-	<!-- End of Script Source Files -->
+	 <!-- End of Script Source Files -->
 
 </body>
 </html>
