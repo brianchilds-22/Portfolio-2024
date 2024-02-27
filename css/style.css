@@ -127,7 +127,9 @@ a.btn,
   bottom: 0;
 }
 
-#missionStatement {
+#missionStatement,
+#skillsMission,
+#edMission {
   font-size: 24px;
 }
 /*-- Landing Page Caption --*/
