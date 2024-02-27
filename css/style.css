@@ -382,6 +382,9 @@ blockquote .svg-inline--fa {
 .clients-hr {
   border-top: 0.1rem solid rgba(9, 32, 63);
 }
+.my-auto {
+  margin-top: 0 !important;
+}
 
 /*============= CONTACT SECTION =============*/
 
