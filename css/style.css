@@ -336,6 +336,10 @@ ul.social li a:hover {
 
 /*============= CLIENTS SECTION =============*/
 
+#clients {
+  background-color: #e9ecef;
+}
+
 #clients-carousel {
   max-width: 1200px;
   margin: 0 auto;
