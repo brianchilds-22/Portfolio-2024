@@ -334,7 +334,7 @@ ul.social li a:hover {
 
 /*============= SKILLS SECTION =============*/
 
-/*============= CLIENTS SECTION =============*/
+/*============= testimonital SECTION =============*/
 
 #clients {
   background-color: #e9ecef;
@@ -362,7 +362,7 @@ blockquote .svg-inline--fa {
   margin-top: 0 !important;
 }
 
-/*============= CONTACT SECTION =============*/
+/*============= Footer SECTION =============*/
 
 .footer {
   background: url("../img/footer/footer.jpg") no-repeat;
@@ -391,6 +391,10 @@ blockquote .svg-inline--fa {
 .footer h3 {
   text-transform: uppercase;
   margin: 1.5rem 0;
+}
+
+#footerEmail:hover {
+  color: #9ebed2;
 }
 
 #footerRight {
