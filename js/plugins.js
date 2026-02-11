@@ -43,7 +43,7 @@ $(document).on("click", 'a[href^="#"]', function (event) {
     {
       scrollTop: $($.attr(this, "href")).offset().top,
     },
-    1000
+    1000,
   );
 });
 
@@ -168,7 +168,7 @@ $(function () {
         {
           triggerOnce: true, //only once this animation should happen
           offset: "70%", // animation should happen when the element is 70% below from the top of the browser window
-        }
+        },
       );
     });
   }
@@ -177,6 +177,25 @@ $(function () {
   onScrollInit($(".staggered-animation"), $(".staggered-animation-container")); //function call with items and trigger
 });
 
+function copyText() {
+  const span = document.getElementById("textToCopy");
+  const selection = window.getSelection();
+  const range = document.createRange();
+  range.selectNodeContents(span);
+  selection.removeAllRanges();
+  selection.addRange(range);
+
+  try {
+    // Attempt to copy the selection
+    document.execCommand("copy");
+    alert("Text copied to clipboard!");
+  } catch (err) {
+    console.error("Failed to copy text: ", err);
+  }
+
+  // Deselect the text
+  selection.removeAllRanges();
+}
 /*========== CONTACT FORM INPUT VALIDATION ==========*/
 //Original Resource: https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
 // $(function () {
